@@ -16,7 +16,7 @@ import org.github.legioth.field.Field;
 import org.github.legioth.field.ValueMapper;
 
 @Tag("div")
-@JavaScript("https://cdn.tinymce.com/4.9/tinymce.min.js")
+@JavaScript("https://cdn.tiny.cloud/1/bnmm6y53g47z0x82bi1jdfsq6klikqoyirejemtwkpuiwrs2/tinymce/5/tinymce.min.js")
 @JavaScript("frontend://tinymceConnector.js")
 public class TinyMce extends Component implements Field<TinyMce, String>, HasSize {
 
